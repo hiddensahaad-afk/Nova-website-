@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="1" stop-color="#1b2a42"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#b9955b" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#b9955b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3c515c"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="930" cy="310" r="330" fill="url(#glow)"/>
+  <path d="M64 74h1072v482H64z" fill="none" stroke="#b9955b" stroke-opacity=".28"/>
+  <path d="M108 143h34v44h-34z" fill="none" stroke="#d8bd8b" stroke-width="2"/>
+  <path d="M115 151h20M115 157h20M115 163h15M115 177h17" stroke="#d8bd8b" stroke-width="1"/>
+  <text x="160" y="165" fill="#f7f3eb" font-family="Georgia,serif" font-size="29">Tiana</text>
+  <text x="160" y="190" fill="#d8bd8b" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">BOOK PROMOTION</text>
+  <text x="110" y="307" fill="#f7f3eb" font-family="Georgia,serif" font-size="61">Every book has a story</text>
+  <text x="110" y="379" fill="#d8bd8b" font-family="Georgia,serif" font-size="66" font-style="italic">worth discovering.</text>
+  <path d="M110 423h50" stroke="#b9955b" stroke-width="2"/>
+  <text x="110" y="462" fill="#d5d7dc" font-family="Arial,sans-serif" font-size="17">Creative book promotion for stories that deserve to be seen.</text>
+  <g transform="translate(834 172) rotate(7)">
+    <path d="M0 0h224v315H0z" fill="#28394b" stroke="#c5a876" stroke-opacity=".65"/>
+    <path d="M16 16h192v283H16z" fill="url(#cover)" stroke="#d8bd8b" stroke-opacity=".35"/>
+    <text x="112" y="96" text-anchor="middle" fill="#d8bd8b" font-family="Georgia,serif" font-size="31">✳</text>
+    <text x="112" y="151" text-anchor="middle" fill="#f7f3eb" font-family="Georgia,serif" font-size="31">Where the</text>
+    <text x="112" y="188" text-anchor="middle" fill="#f7f3eb" font-family="Georgia,serif" font-size="31">Light Waits</text>
+    <path d="M77 222h70" stroke="#d8bd8b"/>
+    <text x="112" y="258" text-anchor="middle" fill="#d8bd8b" font-family="Arial,sans-serif" font-size="8" letter-spacing="2">ORIGINAL CONCEPT</text>
+  </g>
+</svg>

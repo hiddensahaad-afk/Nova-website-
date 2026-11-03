@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roast &amp; Crumb Café | Good Coffee. Fresh Crumbs.</title>
+  <meta name="description" content="Roast & Crumb Café serves handcrafted specialty coffee, fresh pastries, and warm moments in a welcoming neighborhood setting.">
+  <meta name="theme-color" content="#f5eee4">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">Fresh from the oven every morning <span aria-hidden="true">·</span> Open daily from 7:00am</div>
+  <header class="site-header" id="home">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Roast and Crumb Cafe home">
+        <span class="brand-mark" aria-hidden="true">R<span>&amp;</span>C</span>
+        <span class="brand-name">Roast <i>&amp;</i> Crumb<small>Café</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><b class="sr-only">Open menu</b></button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit Us</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#menu">View Menu <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Specialty coffee and pastry on a cafe table"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content page-width">
+        <p class="eyebrow light">Small batch. Big comfort.</p>
+        <h1 id="hero-title">Good Coffee.<br><em>Fresh Crumbs.</em><br>Better Moments.</h1>
+        <p class="hero-copy">Handcrafted coffee, freshly baked treats, and warm moments made for slowing down.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#menu">Explore Our Menu <span aria-hidden="true">↗</span></a>
+          <a class="text-link light-link" href="#visit">Visit the Café <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#menu" aria-label="Scroll to featured menu"><span>Scroll to explore</span><i></i></a>
+    </section>
+
+    <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+      <div class="page-width">
+        <div class="section-heading split-heading reveal">
+          <div><p class="eyebrow">The daily pour</p><h2 id="menu-title">A little something<br><em>for every mood.</em></h2></div>
+          <p class="section-intro">Thoughtfully sourced coffee, made to order. Pastries and plates prepared fresh in our kitchen every morning.</p>
+        </div>
+        <div class="menu-tabs reveal" role="tablist" aria-label="Menu categories">
+          <button class="tab active" type="button" data-filter="all" role="tab" aria-selected="true">All favourites</button>
+          <button class="tab" type="button" data-filter="coffee" role="tab" aria-selected="false">Coffee</button>
+          <button class="tab" type="button" data-filter="pastry" role="tab" aria-selected="false">Fresh pastries</button>
+          <button class="tab" type="button" data-filter="breakfast" role="tab" aria-selected="false">Breakfast</button>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-item reveal" data-category="coffee"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85" alt="Latte in a ceramic cup"><span class="menu-tag">House favourite</span></div><div class="menu-details"><div><h3>Signature Latte</h3><p>Silky steamed milk, double espresso, a whisper of vanilla.</p></div><strong>$5.50</strong></div></article>
+          <article class="menu-item reveal" data-category="coffee"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&w=900&q=85" alt="Cappuccino with latte art"><span class="menu-tag">Warm &amp; rich</span></div><div class="menu-details"><div><h3>Caramel Cappuccino</h3><p>Bold espresso, fine foam, house caramel, sea salt finish.</p></div><strong>$5.75</strong></div></article>
+          <article class="menu-item reveal" data-category="coffee"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=900&q=85" alt="Flat white on a wooden table"></div><div class="menu-details"><div><h3>Classic Flat White</h3><p>Ristretto espresso and velvety microfoam. Nothing extra.</p></div><strong>$4.75</strong></div></article>
+          <article class="menu-item reveal" data-category="coffee"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85" alt="Iced vanilla latte with cream"></div><div class="menu-details"><div><h3>Iced Vanilla Latte</h3><p>Cold espresso, milk, and our gently sweet vanilla syrup.</p></div><strong>$5.95</strong></div></article>
+          <article class="menu-item reveal" data-category="pastry"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85" alt="Fresh golden butter croissant"><span class="menu-tag">Baked today</span></div><div class="menu-details"><div><h3>Butter Croissant</h3><p>Classic French layers, baked until deeply golden and flaky.</p></div><strong>$4.25</strong></div></article>
+          <article class="menu-item reveal" data-category="pastry"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=900&q=85" alt="Cinnamon roll with icing"><span class="menu-tag">Baked today</span></div><div class="menu-details"><div><h3>Cinnamon Roll</h3><p>Brown sugar, cinnamon, cream cheese glaze, served warm.</p></div><strong>$4.95</strong></div></article>
+          <article class="menu-item reveal" data-category="pastry"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85" alt="Slice of chocolate cake"></div><div class="menu-details"><div><h3>Chocolate Cake</h3><p>Dark cocoa sponge, espresso ganache, a little sea salt.</p></div><strong>$6.50</strong></div></article>
+          <article class="menu-item reveal" data-category="breakfast"><div class="menu-photo"><img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=85" alt="Breakfast toast with egg and greens"></div><div class="menu-details"><div><h3>Breakfast Toast</h3><p>Country sourdough, soft egg, avocado, herbs and chili oil.</p></div><strong>$12.50</strong></div></article>
+        </div>
+        <div class="center-action reveal"><a class="button button-dark" href="#visit">View Full Menu <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="about-section section-pad" id="about" aria-labelledby="about-title">
+      <div class="page-width about-grid">
+        <div class="about-image reveal"><img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=1200&q=85" alt="Barista preparing coffee behind the cafe counter"><span class="image-note">Made by hand,<br>served with heart.</span></div>
+        <div class="about-copy reveal"><p class="eyebrow">Our table is yours</p><h2 id="about-title">Made for slow mornings <em>&amp; good conversations.</em></h2><p>Roast &amp; Crumb started with a simple belief: a good cup of coffee can change the shape of a day. We pair carefully prepared drinks with a kitchen that keeps the oven warm, creating a place that feels considered without ever feeling formal.</p><p>Come in for the morning light, stay for one more chapter, one more conversation, or one more crumb.</p><a class="text-link dark-link" href="#story">Meet the people behind the pour <span aria-hidden="true">→</span></a></div>
+      </div>
+    </section>
+
+    <section class="experience-section section-pad" aria-labelledby="experience-title">
+      <div class="page-width"><div class="section-heading centered reveal"><p class="eyebrow">The Roast &amp; Crumb way</p><h2 id="experience-title">The details make<br><em>the difference.</em></h2></div><div class="experience-grid"><article class="experience-item reveal"><span class="feature-icon">01</span><h3>Roasted with care</h3><p>We work with thoughtful roasters to bring out the character in every bean, from first sip to last.</p></article><article class="experience-item reveal"><span class="feature-icon">02</span><h3>Baked fresh</h3><p>Our pastry case follows the rhythm of the kitchen: small batches, real butter, and no shortcuts.</p></article><article class="experience-item reveal"><span class="feature-icon">03</span><h3>Served warm</h3><p>A familiar face, a generous welcome, and a little room to linger. That is the good stuff.</p></article></div></div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery" aria-labelledby="gallery-title">
+      <div class="page-width"><div class="section-heading split-heading reveal"><div><p class="eyebrow">Inside the café</p><h2 id="gallery-title">A place to<br><em>stay awhile.</em></h2></div><p class="section-intro">Soft light, warm cups, and the small beautiful rituals that make a café feel like yours.</p></div><div class="gallery-grid"><figure class="gallery-item gallery-tall reveal"><img src="https://images.unsplash.com/photo-1511081692775-05d0f180a065?auto=format&fit=crop&w=1000&q=85" alt="Barista pouring latte art"><figcaption>Every cup, made with intention.</figcaption></figure><figure class="gallery-item gallery-wide reveal"><img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1200&q=85" alt="Espresso machine and coffee bar"></figure><figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1559622214-f8a9850965bb?auto=format&fit=crop&w=900&q=85" alt="Fresh pastries on a cafe counter"></figure><figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85" alt="Coffee beside a book at a cafe table"></figure><figure class="gallery-item gallery-wide reveal"><img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1200&q=85" alt="Friends enjoying coffee inside a cafe"></figure></div></div>
+    </section>
+
+    <section class="story-section section-pad" id="story" aria-labelledby="story-title"><div class="page-width story-grid"><div class="story-copy reveal"><p class="eyebrow">A small beginning</p><h2 id="story-title">From the first pour<br><em>to the last crumb.</em></h2><p>Roast &amp; Crumb began as a shared table and a well-used espresso machine. Today, the heart is still the same: make the coffee carefully, bake with good ingredients, and leave enough time for people to feel at home.</p><p>Our menu changes with the seasons, our playlist changes with the room, and the door stays open for anyone who needs a warm drink and a little breathing space.</p><div class="story-signature">R&amp;C <span>Est. with care</span></div></div><div class="story-image reveal"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85" alt="Cozy cafe interior with warm light"></div></div></section>
+
+    <section class="reviews-section section-pad" aria-labelledby="reviews-title"><div class="page-width"><div class="section-heading centered reveal"><p class="eyebrow">Kind words</p><h2 id="reviews-title">Good company<br><em>comes back.</em></h2></div><div class="reviews-grid"><blockquote class="review reveal"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>“The flat white is excellent, but it is the little things that keep me coming back: the music, the warm pastry, and the feeling that I can actually take my time.”</p><cite>— Maya R.</cite></blockquote><blockquote class="review reveal"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>“A beautiful neighborhood café with genuinely thoughtful food. The cinnamon roll is dangerous in the best possible way.”</p><cite>— Daniel K.</cite></blockquote><blockquote class="review reveal"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>“My favorite place to meet a friend. Never rushed, always welcoming, and the iced vanilla latte is exactly right.”</p><cite>— Priya S.</cite></blockquote></div></div></section>
+
+    <section class="visit-section section-pad" id="visit" aria-labelledby="visit-title"><div class="page-width visit-grid"><div class="visit-map reveal"><div class="map-lines"></div><span class="map-pin">R&amp;C</span><span class="map-label">Your next coffee break</span></div><div class="visit-copy reveal"><p class="eyebrow">Come on in</p><h2 id="visit-title">Find us in<br><em>the neighborhood.</em></h2><p class="visit-address">24 Willow Street<br>Brookfield, NY 10012</p><div class="hours"><div><span>Mon — Fri</span><strong>7:00am — 6:00pm</strong></div><div><span>Sat — Sun</span><strong>8:00am — 5:00pm</strong></div></div><p class="contact-line">(212) 555-0148<br><a href="mailto:hello@roastandcrumb.cafe">hello@roastandcrumb.cafe</a></p><div class="visit-actions"><a class="button button-dark" href="https://maps.google.com/?q=24+Willow+Street" target="_blank" rel="noreferrer">Get Directions <span aria-hidden="true">↗</span></a><a class="text-link dark-link" href="#contact">Contact Us <span aria-hidden="true">→</span></a></div></div></div></section>
+
+    <section class="instagram-section section-pad" aria-labelledby="instagram-title"><div class="page-width"><div class="section-heading instagram-heading reveal"><div><p class="eyebrow">@roastandcrumb</p><h2 id="instagram-title">Follow the Roast &amp; Crumb<br><em>moments.</em></h2></div><a class="text-link dark-link" href="#footer">Follow Us on Instagram <span aria-hidden="true">↗</span></a></div><div class="instagram-grid"><a href="#gallery" class="social-photo reveal"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=85" alt="Coffee on a wooden cafe table"></a><a href="#gallery" class="social-photo reveal"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=85" alt="Fresh bread and pastry"></a><a href="#gallery" class="social-photo reveal"><img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=700&q=85" alt="Cafe counter with plants"></a><a href="#gallery" class="social-photo reveal"><img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=700&q=85" alt="Latte beside a notebook"></a></div></div></section>
+
+    <section class="final-cta" id="contact" aria-labelledby="cta-title"><div class="page-width reveal"><p class="eyebrow light">Make room for a good moment</p><h2 id="cta-title">Your next coffee break<br><em>starts here.</em></h2><p>Come for the coffee. Stay for the atmosphere.</p><a class="button button-light" href="#visit">Visit Roast &amp; Crumb <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+
+  <footer class="site-footer" id="footer"><div class="page-width footer-grid"><div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">R<span>&amp;</span>C</span><span class="brand-name">Roast <i>&amp;</i> Crumb<small>Café</small></span></a><p>Good coffee, fresh crumbs,<br>better moments.</p></div><div><h3>Explore</h3><a href="#menu">Menu</a><a href="#about">Our story</a><a href="#gallery">Gallery</a><a href="#visit">Visit us</a></div><div><h3>Hours</h3><p>Mon — Fri<br><strong>7:00am — 6:00pm</strong></p><p>Sat — Sun<br><strong>8:00am — 5:00pm</strong></p></div><div><h3>Say hello</h3><a href="mailto:hello@roastandcrumb.cafe">hello@roastandcrumb.cafe</a><a href="tel:+12125550148">(212) 555-0148</a><div class="social-links"><a href="#footer">Instagram</a><a href="#footer">Facebook</a></div></div></div><div class="footer-bottom page-width"><span>© <span id="year"></span> Roast &amp; Crumb Café</span><span>Made for slow mornings.</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
